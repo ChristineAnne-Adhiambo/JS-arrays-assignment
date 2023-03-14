@@ -27,8 +27,7 @@ console.log(arr3);
 
 //Write a program to remove duplicates from the following array.
 //Console the array without duplicates, and console another array that only contains the duplicates
-//var arr = ["apple", "mango", "apple",
-    //        "orange", "mango", "mango"];
+//var arr = ["apple", "mango", "apple", "orange", "mango", "mango"];
     var arr = ["apple","mango","apple","orange","mango","mango"]
     
 var characters = [new Set(arr)];
@@ -49,3 +48,11 @@ else{
   console.log("the search word is not found")
 
 }
+
+
+//Write a JS script to sort the following string
+//let word = "sevink
+
+let word1 = "sevink";
+console.log(word1.split("").sort());
+
