@@ -2,11 +2,14 @@
 //arrays1 =[3,7,34,90,12]
 //arrays =[true,"green","where",12,56] 
 let arr1 = [3,7,34,90,12];
+let last_element = arr1[arr1.length - 1];
+console.log(last_element)
+
+//two
 let arr2 = [true,"green","where",12,56];
-let b = arr2.lastIndexOf(56)
- let a = arr1.lastIndexOf(12);
- console.log(a)
- console.log(b)
+let lastElement = arr2[arr2.length - 1];
+console.log(lastElement)
+
 
  //Write a JS program that will join the following array elements into a string
 // myPets = ["Cow", "Bird", "Snake", "Dog"];
